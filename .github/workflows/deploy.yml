@@ -52,5 +52,5 @@ jobs:
 
             docker run -d \
               --name python-webapp \
-              -p 8000:8000 \
+              -p 5000:5000 \
               ${{ secrets.DOCKERHUB_USERNAME }}/python-webapp:latest
