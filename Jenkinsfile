@@ -29,7 +29,7 @@ pipeline {
                         python -m venv "%VENV%"
                     )
 
-                    "%VENV%\\Scripts\\python.exe" -m pip install -r requirements.txt
+                    "C:\\Users\\Taha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m pip install -r requirements.txt
                 '''
 
             }
